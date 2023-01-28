@@ -1,3 +1,4 @@
+import Card from "react-bootstrap/Card";
 function AnalistSection() {
   return (
     <div class="pt-5">
@@ -5,10 +6,12 @@ function AnalistSection() {
         <div class="col-sm-6">
           <h4>TOP ISSUE</h4>
           <p>A collection of widely discused issue</p>
+          <div className="">Chart</div>
         </div>
         <div class="col-sm-6">
           <h4>SENTIMENT ANALYSIS RESULT</h4>
           <p>Cumulative calculation of sentiment analysis result</p>
+          <div className="">Chart</div>
         </div>
       </div>
     </div>
