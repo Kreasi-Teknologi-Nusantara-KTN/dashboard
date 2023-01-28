@@ -1,4 +1,3 @@
-import Card from "react-bootstrap/Card";
 function AnalistSection() {
   return (
     <div class="pt-5">
