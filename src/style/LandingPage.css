@@ -1,0 +1,20 @@
+.bg {
+  height: 100vh;
+  /* background: salmon; */
+  background: #141414;
+  color: #fff;
+}
+.navcolor {
+  color: #fff;
+}
+
+.firstsec {
+  padding-top: 39px;
+}
+.cardbg {
+  background: #141414 !important;
+  color: #fff !important;
+}
+.cardshad {
+  box-shadow: 1px 1px 5px #227c70, 6px 6px 30px #141414;
+}
