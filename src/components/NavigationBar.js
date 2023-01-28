@@ -1,18 +1,23 @@
-import { Container, Navbar, Nav, NavbarBrand } from "react-bootstrap";
+import { Container, Navbar, Nav } from "react-bootstrap";
 import logo from "../assets/images/Logo.svg";
 
 const NavigationBar = () => {
   return (
-    <Navbar variant="dark">
+    <Navbar variant="dark" expand="lg">
       <Container>
-        <NavbarBrand>
+        <Navbar.Brand href="#home">
           <img src={logo} alt="logo" />
-        </NavbarBrand>
-        <Nav>
-          <Nav.Link>Home</Nav.Link>
-          <Nav.Link>Support</Nav.Link>
-          <Nav.Link>My Accoount</Nav.Link>
-        </Nav>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <div class="d-flex">
+            <Nav className="me-auto ">
+              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="#link">Support</Nav.Link>
+              <Nav.Link href="#link">My Account</Nav.Link>
+            </Nav>
+          </div>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
