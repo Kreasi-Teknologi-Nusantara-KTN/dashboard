@@ -9,7 +9,7 @@ function PieChart() {
         datasets: [
           {
             label: 'Summary',
-            backgroundColor: 'rgba(75,192,192,1)',
+            backgroundColor: 'rgba(20, 20, 20, 1)',
             borderColor: 'rgba(34, 124, 112, 1)',
             borderWidth: 2,
             data: [65, 10]
