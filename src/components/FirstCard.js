@@ -1,6 +1,11 @@
 import Card from "react-bootstrap/Card";
 import ProgressBar from "./parts/ProgBar";
 import iconinf from "../assets/images/Iconinf.svg";
+import IconCom from "../assets/images/Iconcom.svg";
+import iconSummary from "../assets/images/IconSummary.svg";
+import DoughnutChart from "./parts/DoughnutChart";
+import LineChart from "./parts/LineChart";
+
 
 function FirstCard() {
   return (
@@ -29,16 +34,20 @@ function FirstCard() {
             <Card.Body>
               <div class="row">
                 <div class="col-sm-10">
-                  <Card.Title>Imprestion</Card.Title>
+                  <Card.Title>Sumarry</Card.Title>
                 </div>
                 <div class="col-sm-2 d-flex justify-content-end">
-                  <img class="icon flex-end" src={iconinf} alt="iconinf" />
+                  <img class="icon flex-end" src={iconSummary} alt="iconsum" />
                 </div>
               </div>
-
-              <h1>80/20</h1>
-              <hr />
-              <ProgressBar />
+              <div class="row">
+                <div class="col-sm-6">
+                   <h1>12910</h1>
+                </div>
+                <div class="col-sm-6">
+                  <DoughnutChart/>
+                </div>
+              </div>
             </Card.Body>
           </Card>
         </div>
@@ -50,13 +59,13 @@ function FirstCard() {
                   <Card.Title>Public Reaction</Card.Title>
                 </div>
                 <div class="col-sm-2 d-flex justify-content-end">
-                  <img class="icon flex-end" src={iconinf} alt="iconinf" />
+                  <img class="icon flex-end" src={IconCom} alt="iconcom" />
                 </div>
               </div>
 
-              <h1>80/20</h1>
+              <h1>19920</h1>
               <hr />
-              <ProgressBar />
+              <LineChart/>
             </Card.Body>
           </Card>
         </div>
