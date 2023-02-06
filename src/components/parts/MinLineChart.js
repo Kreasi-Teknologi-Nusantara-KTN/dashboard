@@ -1,26 +1,25 @@
 import React from "react";
-import { Doughnut } from "react-chartjs-2";
+import { Line } from "react-chartjs-2";
 
-function DoughnutChart() {
+function MinLineChart() {
   const state = {
-    labels: ["Negative", "Positive"],
+    labels: ["January", "February", "March", "April", "May"],
     datasets: [
       {
-        label: "Summary",
+        label: "Rainfall",
         backgroundColor: "rgba(75,192,192,1)",
         borderColor: "rgba(34, 124, 112, 1)",
         borderWidth: 2,
-        data: [65, 10],
+        data: [65, 59, 80, 81, 56],
       },
     ],
   };
 
   return (
     <div>
-      <Doughnut
+      <Line
         data={state}
         options={{
-          cutout: 70,
           plugins: {
             legend: {
               display: false,
@@ -32,4 +31,4 @@ function DoughnutChart() {
   );
 }
 
-export default DoughnutChart;
+export default MinLineChart;
