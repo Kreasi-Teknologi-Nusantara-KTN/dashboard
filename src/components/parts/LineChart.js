@@ -23,15 +23,11 @@ function LineChart() {
     <Line 
       data={state}
       options={{
-        title:{
-          display:true,
-          text:'Average Rainfall per month',
-          fontSize:20
+        plugins: {
+          legend: {
+            display: false,
+          },
         },
-        legend:{
-          display:true,
-          position:'right'
-        }
       }}
     />
   </div>

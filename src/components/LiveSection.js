@@ -1,4 +1,6 @@
 import Card from "react-bootstrap/Card";
+import profile from "../assets/images/pf.png";
+
 function LiveSection() {
   return (
     <div class="pt-5 pb-5">
@@ -11,12 +13,12 @@ function LiveSection() {
               <div className="container">
                 <div className="row">
                   <div className="col-2">
-                    <img src="" alt="profile" srcset="" class="rounded" />
+                    <img src={profile} alt="profile" srcset="" class="rounded" />
                   </div>
                   <div className="col-10">
                     <div className="row">
-                      <div className="col-5">name</div>
-                      <div className="col-5">btn</div>
+                      <div className="col-5">Ryojaya</div>
+                      <div className="col-5 d-flex justify-content-end"><div class="label text-center w-50 rounded "  style={{background: "#227c70"}}>Positive</div></div>
                     </div>
                     <div className="row">
                       <div className="pt-3">
@@ -42,12 +44,12 @@ function LiveSection() {
               <div className="container">
                 <div className="row">
                   <div className="col-2">
-                    <img src="" alt="profile" srcset="" class="rounded" />
+                    <img src={profile}  alt="profile" srcset="" class="rounded" />
                   </div>
                   <div className="col-10">
                     <div className="row">
-                      <div className="col-5">name</div>
-                      <div className="col-5">btn</div>
+                      <div className="col-5">Ryojaya</div>
+                      <div className="col-5 d-flex justify-content-end"><div class="label text-center w-50 rounded" style={{background: "#227c70"}}>Positive</div></div>
                     </div>
                     <div className="row">
                       <div className="pt-3">
