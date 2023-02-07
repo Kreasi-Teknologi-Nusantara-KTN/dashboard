@@ -7,8 +7,66 @@ function LiveSection() {
           <Card.Title>LIVE CONVERSATION</Card.Title>
           <Card.Subtitle>Most populare conversation</Card.Subtitle>
           <div className="row content pt-3">
-            <div class="col-sm-6">t</div>
-            <div class="col-sm-6">t</div>
+            <div class="col-sm-6">
+              <div className="container">
+                <div className="row">
+                  <div className="col-2">
+                    <img src="" alt="profile" srcset="" class="rounded" />
+                  </div>
+                  <div className="col-10">
+                    <div className="row">
+                      <div className="col-5">name</div>
+                      <div className="col-5">btn</div>
+                    </div>
+                    <div className="row">
+                      <div className="pt-3">
+                        <p>status : Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col pt-3">
+                        <div className="row">
+                          <div className="col">2023-02-1 04:20</div>
+                          <div className="col">l</div>
+                          <div className="col">s</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* artikel kedua */}
+            <div class="col-sm-6">
+              <div className="container">
+                <div className="row">
+                  <div className="col-2">
+                    <img src="" alt="profile" srcset="" class="rounded" />
+                  </div>
+                  <div className="col-10">
+                    <div className="row">
+                      <div className="col-5">name</div>
+                      <div className="col-5">btn</div>
+                    </div>
+                    <div className="row">
+                      <div className="pt-3">
+                        <p>status : Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col pt-3">
+                        <div className="row">
+                          <div className="col">2023-02-1 04:20</div>
+                          <div className="col">l</div>
+                          <div className="col">s</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </Card.Body>
       </Card>
