@@ -1,6 +1,9 @@
 import Card from "react-bootstrap/Card";
 import profile from "../assets/images/pf.png";
 import feedimg from "../assets/images/feed.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCalendar,faHeart,faRetweet } from '@fortawesome/free-solid-svg-icons'
+
 
 function LiveSection() {
   return (
@@ -10,7 +13,7 @@ function LiveSection() {
           <Card.Title>LIVE CONVERSATION</Card.Title>
           <Card.Subtitle>Most populare conversation</Card.Subtitle>
           <div className="row content pt-3">
-            <div class="col-sm-6">
+            <div class="col-sm-6 mt-3">
               <div className="container">
                 <div className="row">
                   <div className="col-2">
@@ -20,9 +23,10 @@ function LiveSection() {
                     <div className="row">
                       <div className="col-5">Ryojaya</div>
                       <div className="col-5 d-flex justify-content-end">
-                        <span class="badge rounded-pill p-2"style={{background: "#227c70"}}>Posifitve</span></div>
+                        <span class="badge rounded-pill p-2"style={{background: "#227c70"}}>Positif</span></div>
                     </div>
                     <div className="row">
+                       <div className="col text-secondary"> <FontAwesomeIcon icon={faCalendar} /> 2023-02-1 04:20</div>
                       <div className="pt-3">
                         <p>status : Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                       </div>
@@ -30,9 +34,8 @@ function LiveSection() {
                     <div className="row">
                       <div className="col pt-3">
                         <div className="row">
-                          <div className="col">2023-02-1 04:20</div>
-                          <div className="col">l</div>
-                          <div className="col">s</div>
+                          <div className="col-4"> <FontAwesomeIcon icon={faHeart} /> 20</div>
+                          <div className="col-3"> <FontAwesomeIcon icon={faRetweet} /> 5</div>
                         </div>
                         <div class="pt-3">
                         <img src={feedimg}  alt="profile" srcset="" class="rounded w-50"/>
@@ -45,7 +48,7 @@ function LiveSection() {
             </div>
 
             {/* artikel kedua */}
-            <div class="col-sm-6">
+            <div class="col-sm-6 mt-3">
               <div className="container">
                 <div className="row">
                   <div className="col-2">
@@ -55,10 +58,11 @@ function LiveSection() {
                     <div className="row">
                       <div className="col-5">Ryojaya</div>
                       <div className="col-5 d-flex justify-content-end">      
-                        <span class="badge rounded-pill p-2"style={{background: "#227c70"}}>Posifitve</span>
+                        <span class="badge rounded-pill p-2"style={{background: "#227c70"}}>Positif</span>
                         </div>
                     </div>
                     <div className="row">
+                        <div className="col text-secondary"> <FontAwesomeIcon icon={faCalendar} /> 2023-02-1 04:20</div>
                       <div className="pt-3">
                         <p>status : Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                       </div>
@@ -66,9 +70,8 @@ function LiveSection() {
                     <div className="row">
                       <div className="col pt-3">
                         <div className="row">
-                          <div className="col">2023-02-1 04:20</div>
-                          <div className="col">l</div>
-                          <div className="col">s</div>
+                          <div className="col-2"> <FontAwesomeIcon icon={faHeart} /> 20</div>
+                          <div className="col"> <FontAwesomeIcon icon={faRetweet} /> 5</div>
                         </div>
                         <div class="pt-3">
                         <img src={feedimg}  alt="profile" srcset="" class="rounded w-50"/>
