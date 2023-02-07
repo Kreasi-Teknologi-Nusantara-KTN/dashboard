@@ -1,5 +1,6 @@
 import Card from "react-bootstrap/Card";
 import profile from "../assets/images/pf.png";
+import feedimg from "../assets/images/feed.png";
 
 function LiveSection() {
   return (
@@ -18,7 +19,8 @@ function LiveSection() {
                   <div className="col-10">
                     <div className="row">
                       <div className="col-5">Ryojaya</div>
-                      <div className="col-5 d-flex justify-content-end"><div class="label text-center w-50 rounded "  style={{background: "#227c70"}}>Positive</div></div>
+                      <div className="col-5 d-flex justify-content-end">
+                        <span class="badge rounded-pill p-2"style={{background: "#227c70"}}>Posifitve</span></div>
                     </div>
                     <div className="row">
                       <div className="pt-3">
@@ -31,6 +33,9 @@ function LiveSection() {
                           <div className="col">2023-02-1 04:20</div>
                           <div className="col">l</div>
                           <div className="col">s</div>
+                        </div>
+                        <div class="pt-3">
+                        <img src={feedimg}  alt="profile" srcset="" class="rounded w-50"/>
                         </div>
                       </div>
                     </div>
@@ -49,7 +54,9 @@ function LiveSection() {
                   <div className="col-10">
                     <div className="row">
                       <div className="col-5">Ryojaya</div>
-                      <div className="col-5 d-flex justify-content-end"><div class="label text-center w-50 rounded" style={{background: "#227c70"}}>Positive</div></div>
+                      <div className="col-5 d-flex justify-content-end">      
+                        <span class="badge rounded-pill p-2"style={{background: "#227c70"}}>Posifitve</span>
+                        </div>
                     </div>
                     <div className="row">
                       <div className="pt-3">
@@ -62,6 +69,9 @@ function LiveSection() {
                           <div className="col">2023-02-1 04:20</div>
                           <div className="col">l</div>
                           <div className="col">s</div>
+                        </div>
+                        <div class="pt-3">
+                        <img src={feedimg}  alt="profile" srcset="" class="rounded w-50"/>
                         </div>
                       </div>
                     </div>
